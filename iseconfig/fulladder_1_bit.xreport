@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-10-28T18:27:06</DateModified>
+  <DateModified>2016-10-29T03:57:15</DateModified>
   <ModuleName>fulladder_1_bit</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>E:/Verilog Assignment/alu-8bit/iseconfig/fulladder_1_bit.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Verilog Assignment/alu_8_bit</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/Verilog Assignment/alu_8_bit\</ImplementationReportsDirectory>
   <DateInitialized>2016-10-28T18:27:06</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
