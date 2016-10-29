@@ -1,5 +1,8 @@
 `timescale 1ns / 1ps
 
+// GroupID-73(15116003_15116066) - Abhimanyu Bambhaniya & Utkarsh Gupta 
+// Date: October 27, 2016
+
 module four_to_one_mux_test;
 
 	// Inputs
