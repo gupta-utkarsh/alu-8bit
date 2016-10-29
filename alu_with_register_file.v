@@ -27,7 +27,6 @@ module alu_with_register_file(
 );
 	wire [7:0] a, b, y;
 	reg_file x1( .clock(clock), .data( instruction[23:0] ), .result( out ), .a(a), .b(b), .y(y) );
-	alu x2( .a(a), .b(b), .op_code( instruction[25:23] ), .out(out), .overflow(overflow), .c_out(c_out) );
+	alu x2( .a(a), .b(b), .op_code( instruction[25:24] ), .out(out), .overflow(overflow), .c_out(c_out) );
 	
-
 endmodule
