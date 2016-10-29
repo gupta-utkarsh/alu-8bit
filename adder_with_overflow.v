@@ -15,7 +15,7 @@ module adder_8_bit_with_overflow(
 	wire [7:0] overflow_extend;
 	
 	adder_8_bit x1( .a(a), .b(b), .sum(temp_sum), .c_out(c_out) ); 
-	overflow_detection x2( .a_last_bit( a[7] ), .b_last_bit( b[7] ), .sum_last_bit( temp_sum[7:0] ), .overflow(overflow) );
+	overflow_detection x2( .a_last_bit( a[7] ), .b_last_bit( b[7] ), .sum_last_bit( temp_sum[7] ), .overflow(overflow) );
 	
 	assign overflow_extend = { {7{overflow}}, overflow};
 	

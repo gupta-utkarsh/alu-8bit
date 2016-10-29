@@ -21,12 +21,24 @@ module alu_with_register_file_tb;
 	);
 
 	initial begin
-		instruction = 26'b11011011100011001000000000;
+		instruction = 26'b00010011100001001000000000;
 		clock = 0;
+		
+		#100 instruction = 26'b01010011100001001000000000;
+	
+		#100 instruction = 26'b11010011100001001000000000;
+		
+		#100 instruction = 26'b10010011100001001000000000;
+		
+		#100 instruction = 26'b00011110000111110000000000;
+		
+		#100 $stop;
 	end
 	
+	
+	
 	always
-		#30 clock = !clock; 
+		#33 clock = !clock; 
       
 endmodule
 

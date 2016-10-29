@@ -29,10 +29,11 @@ module adder_8_bit_with_overflow_test;
 	
 	initial
 		$monitor( "a(%b) + b(%b) = carry sum overflow(%b %b %b)", a, b, c_out, sum, overflow );
-	
+		
+		
 	always @(a or b) begin
-			for ( i = 0; i < 16*16*16*16; i=i+1 )
-				#1 {a,b} = i;
+		for ( i = 0; i < 16*16*16*16; i=i+1 )
+			#1 {a,b} = i;
 	end
       
 endmodule
