@@ -1,23 +1,9 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    16:46:23 10/29/2016 
-// Design Name: 
-// Module Name:    adder_with_overflow 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
+// GroupID-73(15116003_15116066) - Abhimanyu Bambhaniya & Utkarsh Gupta 
+// Date: October 27, 2016 
+// adder_8_bit_with_overflow.v - Adder Module combined with Overflow Module
+
 module adder_8_bit_with_overflow(
 	input [7:0] a,
 	input [7:0] b,

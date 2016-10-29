@@ -1,23 +1,9 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    18:10:25 10/29/2016 
-// Design Name: 
-// Module Name:    alu_with_register_file 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
+// GroupID-73(15116003_15116066) - Abhimanyu Bambhaniya & Utkarsh Gupta 
+// Date: October 27, 2016 
+// alu_with_register_file.v - The Overall ALU Block
+
 module alu_with_register_file(
 	input [25:0] instruction,
 	input clock,

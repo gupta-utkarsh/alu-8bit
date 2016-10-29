@@ -1,23 +1,9 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    17:32:02 10/29/2016 
-// Design Name: 
-// Module Name:    alu 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
+// GroupID-73(15116003_15116066) - Abhimanyu Bambhaniya & Utkarsh Gupta 
+// Date: October 27, 2016 
+// alu.v - ALU Module
+
 module alu(
 	input [7:0] a,
 	input [7:0] b,

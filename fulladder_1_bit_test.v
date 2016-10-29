@@ -1,26 +1,7 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   18:44:19 10/28/2016
-// Design Name:   fulladder_1_bit
-// Module Name:   E:/Verilog Assignment/alu-8bit/fulladder_1_bit_test.v
-// Project Name:  alu_8_bit
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: fulladder_1_bit
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
+// GroupID-73(15116003_15116066) - Abhimanyu Bambhaniya & Utkarsh Gupta 
+// Date: October 27, 2016 
 
 module fulladder_1_bit_test;
 

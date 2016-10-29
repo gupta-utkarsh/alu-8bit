@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!--This is an ISE project configuration file.-->
 <!--It holds project specific layout data for the projectmgr plugin.-->
 <!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
@@ -7,15 +7,22 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/adder_8_bit E:|Verilog Assignment|alu-8bit|adder_8_bit.v</ClosedNode>
+         <ClosedNode>/adder_8_bit_with_overflow E:|Verilog Assignment|alu-8bit|adder_with_overflow.v</ClosedNode>
+         <ClosedNode>/adder__8_bit_with_overflow E:|Verilog Assignment|alu-8bit|adder_with_overflow.v</ClosedNode>
+         <ClosedNode>/adder_with_overflow E:|Verilog Assignment|alu-8bit|adder_with_overflow.v</ClosedNode>
+         <ClosedNode>/adder_with_overflow E:|Verilog Assignment|alu-8bit|adder_with_overflow.v/x1 - adder_8_bit</ClosedNode>
+         <ClosedNode>/alu E:|Verilog Assignment|alu-8bit|alu.v</ClosedNode>
+         <ClosedNode>/alu_with_register_file E:|Verilog Assignment|alu-8bit|alu_with_register_file.v/x2 - alu</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>adder_8_bit (E:/Verilog Assignment/alu-8bit/adder_8_bit.v)</SelectedItem>
+         <SelectedItem>alu_with_register_file (E:/Verilog Assignment/alu-8bit/alu_with_register_file.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d30000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000132000000020000000000000000000000000200000064ffffffff000000810000000300000002000001320000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>adder_8_bit (E:/Verilog Assignment/alu-8bit/adder_8_bit.v)</CurrentItem>
+      <CurrentItem>alu_with_register_file (E:/Verilog Assignment/alu-8bit/alu_with_register_file.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -38,9 +45,9 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000016e000000040101000100000000000000000000000064ffffffff0000008100000000000000040000008a00000001000000000000002400000001000000000000006600000001000000000000005a0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff0000008100000000000000040000008a0000000100000000000000240000000100000000000000660000000100000000000001690000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>E:\Verilog Assignment\alu-8bit\fulladder_1_bit.v</CurrentItem>
+      <CurrentItem>fulladder_1_bit.v</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -75,24 +82,38 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode></ClosedNode>
          <ClosedNode>/adder_8_bit_test E:|Verilog Assignment|alu-8bit|adder_8_bit_test.v</ClosedNode>
          <ClosedNode>/adder_8_bit_test E:|Verilog Assignment|alu-8bit|adder_8_bit_test.v/uut - adder_8_bit</ClosedNode>
+         <ClosedNode>/adder_8_bit_with_overflow E:|Verilog Assignment|alu-8bit|adder_with_overflow.v</ClosedNode>
+         <ClosedNode>/adder_8_bit_with_overflow_test E:|Verilog Assignment|alu-8bit|adder_8_bit_with_overflow_test.v</ClosedNode>
+         <ClosedNode>/adder_with_overflow E:|Verilog Assignment|alu-8bit|adder_with_overflow.v</ClosedNode>
+         <ClosedNode>/alu E:|Verilog Assignment|alu-8bit|alu.v</ClosedNode>
+         <ClosedNode>/alu_test E:|Verilog Assignment|alu-8bit|alu_test.v</ClosedNode>
+         <ClosedNode>/alu_test E:|Verilog Assignment|alu-8bit|alu_test.v/uut - alu</ClosedNode>
+         <ClosedNode>/alu_with_register_file E:|Verilog Assignment|alu-8bit|alu_with_register_file.v</ClosedNode>
+         <ClosedNode>/alu_with_register_file_tb E:|Verilog Assignment|alu-8bit|alu_with_register_file_tb.v</ClosedNode>
+         <ClosedNode>/and_8_bit_test E:|Verilog Assignment|alu-8bit|and_8_bit_test.v</ClosedNode>
          <ClosedNode>/fulladder_1_bit_test E:|Verilog Assignment|alu-8bit|fulladder_1_bit_test.v</ClosedNode>
+         <ClosedNode>/multi_8_bit_test E:|Verilog Assignment|alu-8bit|multi_8_bit_test.v</ClosedNode>
+         <ClosedNode>/mux_test E:|Verilog Assignment|alu-8bit|four_to_one_mux_test.v</ClosedNode>
+         <ClosedNode>/overflow_detection_test E:|Verilog Assignment|alu-8bit|overflow_detection_test.v</ClosedNode>
+         <ClosedNode>/reg_file_test E:|Verilog Assignment|alu-8bit|reg_file_test.v</ClosedNode>
+         <ClosedNode>/xor_8_bit_test E:|Verilog Assignment|alu-8bit|xor_8_bit_test.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>fulladder_1_bit_test (E:/Verilog Assignment/alu-8bit/fulladder_1_bit_test.v)</SelectedItem>
+         <SelectedItem>alu_with_register_file_tb (E:/Verilog Assignment/alu-8bit/alu_with_register_file_tb.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ca000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ca0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000008f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000008f0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>fulladder_1_bit_test (E:/Verilog Assignment/alu-8bit/fulladder_1_bit_test.v)</CurrentItem>
+      <CurrentItem>alu_with_register_file_tb (E:/Verilog Assignment/alu-8bit/alu_with_register_file_tb.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Design Utilities</ClosedNode>
-         <ClosedNode>ISim Simulator</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem></SelectedItem>
@@ -118,4 +139,5 @@
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Behavioral Simulation</CurrentView>
+   <CopyAdditionalFiles/>
 </Project>

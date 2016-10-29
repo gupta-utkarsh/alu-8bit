@@ -1,26 +1,8 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   14:16:26 10/29/2016
-// Design Name:   xor_8_bit
-// Module Name:   E:/Verilog Assignment/alu-8bit/xor_8_bit_test.v
-// Project Name:  alu_8_bit
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: xor_8_bit
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
+// GroupID-73(15116003_15116066) - Abhimanyu Bambhaniya & Utkarsh Gupta 
+// Date: October 27, 2016 
+// xor_8_bit_test.v - Test Bench for XOR module.
 
 module xor_8_bit_test;
 

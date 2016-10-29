@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   17:07:48 10/29/2016
-// Design Name:   adder_8_bit_with_overflow
-// Module Name:   E:/Verilog Assignment/alu-8bit/adder_8_bit_with_overflow_test.v
-// Project Name:  alu_8_bit
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: adder_8_bit_with_overflow
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 module adder_8_bit_with_overflow_test;
 
 	// Inputs
